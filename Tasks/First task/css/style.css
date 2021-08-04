@@ -1,0 +1,137 @@
+.dice-diagram {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	border: 0.3vmin solid;
+	border-radius: 1%;
+	height: 65vmin;
+	width: 55vmin;
+	margin: 10vh auto;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.dice-diagram__row {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.dice-diagram__square {
+	border: 0.7vmin solid black;
+	border-radius: 15%;
+	margin: 1vmin;
+	height: 10vmin;
+	width: 10vmin;
+	padding: 0.7vmin;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.dice-diagram__dot {
+	margin: 0.7vmin;
+	height: 2vmin;
+	width: 2vmin;
+	background-color: black;
+	border-radius: 1vmin;
+}
+
+.dice-diagram__square_square6 {
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.dice-diagram__square_square2 {
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.dice-diagram__square_square2 :last-child {
+	-ms-flex-item-align: end;
+	align-self: flex-end;
+}
+
+.dice-diagram__square_square5 {
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.dice-diagram__square_square5_center-dot {
+	-ms-flex-preferred-size: 100%;
+	flex-basis: 100%;
+	background: none;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.dice-diagram__square_square3 .dice-diagram__dot {
+	margin: 0.6vmin;
+}
+
+.dice-diagram__square_square3 {
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.dice-diagram__square_square3 :first-child {
+	-ms-flex-item-align: start;
+	align-self: start;
+}
+
+.dice-diagram__square_square3 :last-child {
+	-ms-flex-item-align: end;
+	align-self: flex-end;
+}
+
+.dice-diagram__square_square4 {
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.dice-diagram__square_square4 :first-child {
+	-ms-flex-item-align: start;
+	align-self: flex-start;
+}
+
+.dice-diagram__square_square4 :nth-child(2) {
+	-ms-flex-item-align: start;
+	align-self: flex-start;
+}
+
+.dice-diagram__square_square1 {
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
