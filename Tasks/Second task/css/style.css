@@ -4,15 +4,22 @@
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
-.container{
+
+.container {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	width: 100vw;
 	height: 100vh;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
 	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 }
 
-.form-auth{
+.form-auth {
 	font-family: "Roboto", sans-serif;
 	width: 400px;
 	display: -webkit-box;
@@ -24,12 +31,12 @@
 	flex-direction: column;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
-	align-items: center;;
+	align-items: center;
 	color: #575353;
 	font-weight: 600;
 }
 
-.form-auth_title p{
+.form-auth_title p {
 	font-size: 1.6em;
 	font-weight: 800;
 	color: #556bca;
@@ -68,7 +75,8 @@ form.stackfindover h4 {
 	flex-direction: column;
 	margin-bottom: 20px;
 }
-.form__group:last-child{
+
+.form__group:last-child {
 	margin-bottom: 0;
 }
 
@@ -89,7 +97,7 @@ button {
 	font-weight: 600;
 }
 
-.form__group 	input {
+.form__group input {
 	padding-left: 15px;
 	font-size: 14px;
 }
