@@ -37,7 +37,7 @@
 }
 
 .form-auth_title p {
-	font-size: 1.6em;
+	font-size: 1.6rem;
 	font-weight: 800;
 	color: #556bca;
 	margin-bottom: 20px;
@@ -82,7 +82,7 @@ form.stackfindover h4 {
 
 .form__group label,
 a {
-	font-size: 12px;
+	font-size: 0.75rem;
 	font-weight: 800;
 	text-decoration: none;
 	justify-self: space-between;
@@ -99,7 +99,7 @@ button {
 
 .form__group input {
 	padding-left: 15px;
-	font-size: 14px;
+	font-size: 0.875rem;
 }
 
 .form__group input:hover,
@@ -125,7 +125,7 @@ button {
 	margin-bottom: 20px;
 }
 
-.form_chekbox {
+.form-chekbox {
 	display: inline-block;
 }
 
@@ -141,7 +141,7 @@ button {
 	height: 40px;
 	background-color: #556bca;
 	color: #fff;
-	font-size: 14px;
+	font-size: 0.875rem;
 	font-weight: 600;
 	margin-bottom: 20px;
 }
@@ -162,11 +162,11 @@ button {
 
 .form__group_after-submit {
 	text-align: center;
-	font-size: 14px;
+	font-size: 0.875rem;
 }
 
 .underform {
-	font-size: 12px;
+	font-size: 0.75rem;
 	font-weight: 600;
 	-webkit-transform: scaleX(1.1);
 	-ms-transform: scaleX(1.1);
